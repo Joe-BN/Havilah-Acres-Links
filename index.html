@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/x-icon" href="./images/logo/favicon.ico">
   <title>Important Links</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -43,7 +42,7 @@
     h1 {
       margin-bottom: 2.5rem;
       font-size: 2rem;
-      color: var(--default_gold);
+      color: var(--active_gold);
     }
 
     .link-card {
@@ -51,7 +50,7 @@
       border: 1px solid var(--default_gold);
       border-radius: 12px;
       padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       transition: background 0.3s ease;
     }
 
@@ -85,15 +84,28 @@
       background-color: var(--active_gold);
     }
 
+    .top  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 1%;
+    }
+    .top img{
+      justify-self: left;
+      height: 3rem; 
+    }
+
+    .info {
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-align: left;
+      margin: 0 3% 4vh;
+    }
+
     footer {
-      margin-top: 2.5rem;
+      margin-top: 1.5rem;
       font-size: 0.8rem;
       color: #666;
-    }
-    @media (max-width: 768px) {
-      footer {
-      margin-top: 1.2rem;
-    }
     }
 
     .fa-icon {
@@ -103,14 +115,28 @@
 </head>
 <body>
   <div class="container">
-    <h1>Explore Our Links</h1>
+    <div class="top">
+      <h1> Havilah Acres</h1>
+      <img src="./images/support/havilah_acres.jpg" alt="Havilah acres logo">
+    </div>
+
+    <div class="info">
+      <p>
+        <li>Over 2500 Acres sold.</li>
+        <li>1500+ Title deeds issued.</li>
+        <li>Multiple repeat clients.</li>
+        <br> <br>
+        We are sure to have something for you... <strong> Explore our links below</strong>
+        <br><br>
+      </p>
+    </div>
 
     <div class="link-card">
       <div class="link-title">
         <i class="fa-solid fa-globe fa-icon"></i>
         Visit Our Website
       </div>
-      <a class="link-button" href="https://havilahacres.co.ke" target="_blank">Go to Site</a>
+      <a class="link-button" href="https://yourwebsite.com" target="_blank">Go to Site</a>
     </div>
 
     <div class="link-card">
@@ -118,7 +144,7 @@
         <i class="fa-brands fa-whatsapp fa-icon"></i>
         Join Our WhatsApp Channel
       </div>
-      <a class="link-button" href="https://chat.whatsapp.com/JWSxuTkGZvH3M57Xvm676t" target="_blank">Join Now</a>
+      <a class="link-button" href="https://chat.whatsapp.com/your-invite-code" target="_blank">Join Now</a>
     </div>
 
     <div class="link-card">
@@ -126,7 +152,7 @@
         <i class="fa-solid fa-file-lines fa-icon"></i>
         Looking for something?
       </div>
-      <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfF-s07Ne0iy7-EPaeKt7YqWzNX9Ohw_S65CHKe1ulEPadAUg/viewform" target="_blank">Go to Form</a>
+      <a class="link-button" href="https://forms.gle/your-form-link" target="_blank">Open Form</a>
     </div>
     <br><br>
     <footer>
